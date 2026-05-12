@@ -1,0 +1,11 @@
+network:
+  version: 2
+  renderer: networkd
+
+  ethernets:
+    ens33:
+      dhcp4: true
+
+    ens37:
+      dhcp4: true
+      

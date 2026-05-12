@@ -1,0 +1,26 @@
+OpenSSH Server Configuration Notes
+
+Service Name:
+ssh
+
+Port:
+22
+
+Verification Commands:
+
+sudo systemctl status ssh
+
+ss -tulnp | grep 22
+
+Remote Login Example:
+
+ssh username@192.168.20.129
+
+Observed:
+- SSH service active
+- Port 22 listening
+- Remote login successful
+
+Security Notes:
+- SSH used for secure remote administration
+- Firewall configured to allow SSH traffic
