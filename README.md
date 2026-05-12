@@ -149,6 +149,9 @@ linux-server-networking-lab/
 │   ├── traceroute-analysis.png
 │   ├── netstat-open-ports.png
 │   └── ss-open-ports.png
+    └── and more
+
+
 │
 ├── network-diagrams/
 │   └── network-topology.png
@@ -161,9 +164,15 @@ linux-server-networking-lab/
 ├── troubleshooting/
 │   └── network-troubleshooting.md
 │
-└── notes/
-    ├── linux-networking-notes.md
-    └── commands-reference.md
+│── notes/
+│    ├── linux-networking-notes.md
+│    └── commands-reference.md
+│    └── ssh-notes.md
+│    └── firewall-notes.md
+│    └── tcpdump-notes.md
+│    └── routing-notes.md 
+  
+    
 ```
 
 ---
